@@ -17,8 +17,12 @@ rates?"_ and watch:
 
 ## Demo
 
-> _Add a screen recording or screenshot here showing a query running end to
-> end — the live progress updates are the most interesting part._
+
+
+https://github.com/user-attachments/assets/d7215f76-726b-46da-8bd6-01b84c574485
+
+
+
 
 ---
 
