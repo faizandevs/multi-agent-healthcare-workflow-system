@@ -1,0 +1,17 @@
+# Local container orchestration — optional, for when you want to run the
+# backend in a container instead of a venv. Not required for development.
+#
+# Usage: docker compose up --build
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Mount so the persisted Serper usage counter survives rebuilds
+      - ./backend/serper_usage.json:/app/backend/serper_usage.json
